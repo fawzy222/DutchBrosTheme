@@ -3,6 +3,10 @@
     "main": {
       "type": "main-test-product",
       "blocks": {
+        "13b7c6ec-c4d7-499b-befa-16bc01636df7": {
+          "type": "product_price_block",
+          "settings": {}
+        },
         "fd34da7e-34bb-4518-944e-6a8c09468e07": {
           "type": "shipping_notice_block",
           "settings": {
@@ -17,6 +21,7 @@
         }
       },
       "block_order": [
+        "13b7c6ec-c4d7-499b-befa-16bc01636df7",
         "fd34da7e-34bb-4518-944e-6a8c09468e07",
         "f8556016-b2f6-4b39-8c2a-91679594c113"
       ],
