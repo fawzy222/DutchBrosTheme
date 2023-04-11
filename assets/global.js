@@ -1063,3 +1063,32 @@ class ProductRecommendations extends HTMLElement {
 }
 
 customElements.define('product-recommendations', ProductRecommendations);
+
+
+$(document).ready(function(){
+  $('.outer-ctn').slick({
+    dots: true,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 3000, 
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+        
+        {
+        breakpoint: 989,
+        settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+        }
+        },
+        {
+        breakpoint: 750,
+        settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+        }
+        }
+    ]
+    });
+});

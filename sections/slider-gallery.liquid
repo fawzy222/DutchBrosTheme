@@ -1,0 +1,50 @@
+<h2>Testimonials</h2>
+<body>
+    <div class="outer-ctn" >
+    {% for block in section.blocks %}  
+        <div class="inner-ctn"> 
+            <div class="testimonial-ctn">
+                <div class="quotes">{% render 'icon-quotes' %}</div>
+                <div class="text-ctn">{{block.settings.review}}</div>
+            </div>
+            <div class="avi-ctn"> <img src="{{block.settings.avi | img_url: "200x"}}"/></div>
+            <div class="username-ctn">{{block.settings.name}}</div>
+        </div>
+    {%endfor%}
+</div>
+
+{% schema %}
+  {
+    "name": "slider-gallery",
+    "settings": [],
+    "blocks": [
+        {
+            "type":"testimonial",
+            "name":"testimonial",
+            "settings":[
+                {
+                "id":"review",
+                "label":"review-text",
+                "type": "richtext"
+                },
+                {
+                "id":"avi",
+                "label":"user-avi",
+                "type": "image_picker"
+                },
+                {
+                "id":"name",
+                "label":"review-name",
+                "type": "text"  
+                }
+            ]
+
+        }
+    ],
+    "presets": [
+      {
+        "name": "slider gallery"
+      }
+    ]
+  }
+{% endschema %}

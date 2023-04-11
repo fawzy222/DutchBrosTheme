@@ -1,0 +1,9 @@
+{
+    "sections":{
+        "main":{
+            "type":"slider-gallery",
+            "settings":{}
+        }
+    },
+    "order":["main"]
+}

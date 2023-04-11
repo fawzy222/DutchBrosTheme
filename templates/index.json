@@ -340,6 +340,59 @@
         "padding_top": 36,
         "padding_bottom": 44
       }
+    },
+    "5c336b79-7deb-41fc-a78a-d261b4d686b1": {
+      "type": "slider-gallery",
+      "blocks": {
+        "82611496-b95d-42ae-8d22-d57c8b7aaed2": {
+          "type": "testimonial",
+          "settings": {
+            "review": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
+            "avi": "shopify:\/\/shop_images\/user_2.jpg",
+            "name": "Jane Doe"
+          }
+        },
+        "034e1f46-4923-473c-bbf1-8bec407249cf": {
+          "type": "testimonial",
+          "settings": {
+            "review": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
+            "avi": "shopify:\/\/shop_images\/user_3.jpg",
+            "name": "John Doe"
+          }
+        },
+        "bbd3e165-a9aa-47f8-8301-7eb169795d71": {
+          "type": "testimonial",
+          "settings": {
+            "review": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
+            "avi": "shopify:\/\/shop_images\/user_1.jpg",
+            "name": "John Doe"
+          }
+        },
+        "c6c00f26-0b65-4d51-b04f-f732ab670482": {
+          "type": "testimonial",
+          "settings": {
+            "review": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
+            "avi": "shopify:\/\/shop_images\/user_5.jpg",
+            "name": "Jane Doe"
+          }
+        },
+        "6b820819-2095-4e18-ab94-0e690c7f171a": {
+          "type": "testimonial",
+          "settings": {
+            "review": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
+            "avi": "shopify:\/\/shop_images\/user_4.jpg",
+            "name": "John Doe"
+          }
+        }
+      },
+      "block_order": [
+        "82611496-b95d-42ae-8d22-d57c8b7aaed2",
+        "034e1f46-4923-473c-bbf1-8bec407249cf",
+        "bbd3e165-a9aa-47f8-8301-7eb169795d71",
+        "c6c00f26-0b65-4d51-b04f-f732ab670482",
+        "6b820819-2095-4e18-ab94-0e690c7f171a"
+      ],
+      "settings": {}
     }
   },
   "order": [
@@ -351,6 +404,7 @@
     "8e1d87df-eeaa-4625-b5af-7a415c2814e1",
     "39784db2-da04-4bcb-8838-ff723d7a1aa0",
     "f753a65e-e444-463a-b880-1bc35318451d",
-    "50efb0d4-cac8-456c-ab31-c63ecc708837"
+    "50efb0d4-cac8-456c-ab31-c63ecc708837",
+    "5c336b79-7deb-41fc-a78a-d261b4d686b1"
   ]
 }

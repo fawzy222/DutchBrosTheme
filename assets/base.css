@@ -3133,6 +3133,54 @@ details-disclosure > details {
 .rte blockquote > * {
   margin: -0.5rem 0 -0.5rem 0;
 }
+/* slider-gallery section */
+#quotes img {
+  width:  25px !important;
+  height: 25px !important;
+}
+.outer-ctn{
+  width: 1100px;
+  height: 600px;
+}
+.inner-ctn{
+  width:370px;
+  height: 500px;
+  display: flex!;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 25px;
+  box-shadow:   2px 2px 5px 5px grey;
+  margin: 15px;
+  }
+.avi-ctn img{
+  border-radius: 100%;
+  margin: 5px auto;
+  height: 75px;
+  width:75px
+}
+.quotes svg {
+  width:  25px !important;
+  height: 25px !important;
+
+}
+@media only screen and (max-width: 768px) {
+  .outer-ctn{
+    width: 700px;
+  }
+  .inner-ctn{
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .outer-ctn{
+    width: 350px;
+  }
+  .inner-ctn{
+    width: 200px;
+  }
+}
 
 /* Ambient animation */
 
